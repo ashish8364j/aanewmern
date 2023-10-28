@@ -1,7 +1,7 @@
 const schema = require('../model/modelSchema.js') 
 class controllers {
     static homePage=(req,res)=>{
-        res.render('home.ejs')
+        res.render('index.ejs')
     }
 
     static checkData=async(req,res)=>{
